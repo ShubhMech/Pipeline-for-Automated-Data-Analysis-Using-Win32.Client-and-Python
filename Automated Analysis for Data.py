@@ -60,7 +60,7 @@ while True:
         new_mail = outlook.CreateItem(0)
 
 
-        new_mail.Subject = "{:%m/%d} Job MLL Report Update".format(date.today())
+        new_mail.Subject = "{:%m/%d} Report Update".format(date.today())
 
 
         new_mail.To = to_email
